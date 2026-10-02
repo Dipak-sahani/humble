@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import LandingPage from "./page/LandingPage";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>hi starting projects</h1>
+      <LandingPage/>
     </>
   );
 }
